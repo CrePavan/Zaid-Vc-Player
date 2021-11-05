@@ -200,7 +200,7 @@ async def play(c: Client, m: Message):
                 "» ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴘʟᴀʏ? 🤨"
             )
         else:
-            suhu = await m.reply("🔎")
+            suhu = await m.reply("👨🏻‍💻 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
