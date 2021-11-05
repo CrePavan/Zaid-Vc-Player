@@ -151,7 +151,7 @@ async def play(c: Client, m: Message):
                     "» ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴘʟᴀʏ? 🤨**"
                 )
             else:
-                suhu = await m.reply("👨🏻‍💻 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...")
+                suhu = await m.reply("**Cᴏɴɴᴇᴄᴛɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -200,7 +200,7 @@ async def play(c: Client, m: Message):
                 "» ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴘʟᴀʏ? 🤨"
             )
         else:
-            suhu = await m.reply("👨🏻‍💻 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...")
+            suhu = await m.reply("**Cᴏɴɴᴇᴄᴛɪɴɢ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -220,7 +220,7 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=f"{IMG_1}",
-                            caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
+                            caption=f"🏷️ **Eᴍɪxɪɴᴀ ᴛʀᴀᴄᴋ ɴᴀᴍᴇ :** [{songname}]({url})\n👨🏻‍💻 **ꜱᴇʀᴠᴇʀ :** `**ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ**`\n🙋🏻 **ʀᴇǫᴜᴇꜱᴛ :** {m.from_user.mention()}\n#️⃣ **Qᴜᴇᴜᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
                             reply_markup=keyboard,
                         )
                     else:
@@ -237,7 +237,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                                caption=f"🏷️ **Eᴍɪxɪɴᴀ ᴛʀᴀᴄᴋ ɴᴀᴍᴇ :** [{songname}]({url})\n👨🏻‍💻 **ꜱᴇʀᴠᴇʀ :** `**ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ**`\n❄️ **ᴘᴏꜱɪᴛɪᴏɴ :** `ꜰɪʀꜱᴛ`\n🙋🏻 **ʀᴇǫᴜᴇꜱᴛ :** {m.from_user.mention()}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
