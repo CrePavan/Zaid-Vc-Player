@@ -151,7 +151,7 @@ async def play(c: Client, m: Message):
                     "» ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴘʟᴀʏ? 🤨**"
                 )
             else:
-                suhu = await m.reply("🔎")
+                suhu = await m.reply("❄️")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -200,7 +200,7 @@ async def play(c: Client, m: Message):
                 "» ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ᴘʟᴀʏ? 🤨"
             )
         else:
-            suhu = await m.reply("🔎")
+            suhu = await m.reply("❄️")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -237,7 +237,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                                caption=f"☑️ **ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴜꜱᴇʀ :** {m.from_user.mention()}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
