@@ -53,10 +53,10 @@ async def play(c: Client, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/superior_support"
+                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/TheCreatorPavan"
                 ),
                 InlineKeyboardButton(
-                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/superior_bots"
+                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/TheCreatorPavan"
                 ),
             ]
         ]
@@ -151,7 +151,7 @@ async def play(c: Client, m: Message):
                     "ɴᴀᴀᴍ ʙᴀᴛᴀ ʙᴀʙʏ..🙂**"
                 )
             else:
-                suhu = await m.reply("**Eᴍɪxɪɴᴀ ʟᴏᴀᴅ..💡**")
+                suhu = await m.reply("**Eᴍɪxɪɴᴀ ʟᴏᴀᴅ...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -200,7 +200,7 @@ async def play(c: Client, m: Message):
                 "ɴᴀᴀᴍ ʙᴀᴛᴀ ʙᴀʙʏ..🙂"
             )
         else:
-            suhu = await m.reply("**Eᴍɪxɪɴᴀ ʟᴏᴀᴅ..💡**")
+            suhu = await m.reply("**Eᴍɪxɪɴᴀ ʟᴏᴀᴅ...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
