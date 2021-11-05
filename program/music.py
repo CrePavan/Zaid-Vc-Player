@@ -220,7 +220,7 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=f"{IMG_1}",
-                            caption=f"🏷️ **Eᴍɪxɪɴᴀ ᴛʀᴀᴄᴋ ɴᴀᴍᴇ :** [{songname}]({url})\n🙋🏻 **ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** {m.from_user.mention()}\n#️⃣ **Qᴜᴇᴜᴇᴅ ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`\n\n🌸 **ɴᴏᴡ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ꜱᴏɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ᴀᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ...**",
+                            caption=f"🏷️ ʜᴇʏ {m.from_user.mention()} **ᴇᴍɪxɪɴᴀ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ꜱᴏɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**",
                             reply_markup=keyboard,
                         )
                     else:
@@ -237,7 +237,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"🏷️ **Eᴍɪxɪɴᴀ ᴛʀᴀᴄᴋ ɴᴀᴍᴇ :** [{songname}]({url})\n🙋🏻 **ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** {m.from_user.mention()}\n\n🌸 **ɴᴏᴡ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ꜱᴏɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ ᴀᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ...**",
+                                caption=f"🏷️ ʜᴇʏ {m.from_user.mention()} **ᴇᴍɪxɪɴᴀ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ꜱᴏɴɢ ꜰʀᴏᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴇʀᴠᴇʀ...**",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
