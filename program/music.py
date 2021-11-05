@@ -53,10 +53,10 @@ async def play(c: Client, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/TheCreatorPavan"
+                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/TheDotBots"
                 ),
                 InlineKeyboardButton(
-                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/TheCreatorPavan"
+                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/TheDotBots"
                 ),
             ]
         ]
