@@ -241,7 +241,7 @@ async def play(c: Client, m: Message):
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
-                            await m.reply_text(f"🚨 Error: Abee Pehle VC on Kr 😴🤧")
+                            await m.reply_text(f"**Abee Pehle VC on Kr** 😴🤧")
 
 
 # stream is used for live streaming only
